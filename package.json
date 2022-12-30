@@ -1,0 +1,11 @@
+{
+  "name": "change-ssh-identityfile",
+  "version": "0.0.0",
+  "packageManager": "yarn@3.3.1",
+  "scripts": {
+    "build": "rm -rf dist && yarn dlx pkg change-ssh-identityfile.js --targets latest-macos-arm64,latest-macos-x64 --out-path ./dist/"
+  },
+  "dependencies": {
+    "yargs": "next"
+  }
+}
